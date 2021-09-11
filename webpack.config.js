@@ -76,7 +76,7 @@ module.exports = {
     hot: isDev,
     host: '192.168.56.114'
   },
-  devtool: isDev ? 'source-map' : '',
+  devtool: isDev ? 'source-map' : false,
   plugins: [
     new HTMLWebpackPlugin({
       template: './index.html',
